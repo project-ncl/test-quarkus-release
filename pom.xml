@@ -121,6 +121,7 @@
         <extensions>true</extensions>
         <configuration>
             <finalName>test-quarkus-release</finalName>
+            <skipOriginalJarRename>true</skipOriginalJarRename>
         </configuration>
         <executions>
           <execution>
