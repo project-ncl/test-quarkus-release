@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.pnc</groupId>
   <artifactId>test-quarkus-release</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5-SNAPSHOT</version>
 
   <name>test quarkus release</name>
   <description>Test if current Quarkus release can be used to push to Maven Central</description>
@@ -27,7 +27,7 @@
     <connection>scm:git:http://github.com/project-ncl/test-quarkus-release.git</connection>
     <developerConnection>scm:git:git@github.com:project-ncl/test-quarkus-release.git</developerConnection>
     <url>http://github.com/project-ncl/test-quarkus-release</url>
-    <tag>1.0.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <developers>
